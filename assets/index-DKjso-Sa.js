@@ -474,8 +474,6 @@ Error generating stack: `+o.message+`
     text-align: center;
     margin: auto;
     .gallery-item {
-      width: 300px !important;
-      height: 400px;
       margin : 10px;
     }
   }
