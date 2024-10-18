@@ -46,6 +46,16 @@ Error generating stack: `+o.message+`
   .header-wrapper {
   }
 
+  .hero {
+    background-image: url('assets/images/wedding_header.png');
+    background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("assets/images/wedding_header.png") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    font-family: 'Raleway', sans-serif;
+  }
+
   .hero.is-large .hero-body {
     padding-bottom: 8rem;
     padding-top: 8rem;
