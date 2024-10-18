@@ -369,10 +369,10 @@ Error generating stack: `+s.message+`
 
     .section-title {
       font-size: 2rem;
-      margin-bottom: 30px;
+      margin-bottom: 10px;
 
       @media (max-width: 599px) {
-        margin-bottom: 15px !important;
+        margin-bottom: 5px !important;
       }
     }
 
