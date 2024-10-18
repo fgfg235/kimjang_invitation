@@ -2829,7 +2829,7 @@ This typically indicates that your device does not have a healthy Internet conne
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     @media (max-width: 599px) {
-      max-width: 400px;
+      width: 350px;
     }
   }
 
