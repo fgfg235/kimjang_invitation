@@ -477,12 +477,6 @@ Error generating stack: `+o.message+`
       width: 300px;
       height: 400px;
       margin : 10px;
-
-      @media (max-width: 599px) {
-        width: 150px;
-        height: 200px;
-        margin : 5px;
-      }
     }
   }
 `,sv=()=>{const e=n=>`assets/images/${n}.png`,t=Array.from({length:12},(n,i)=>({alt:`image${String(i).padStart(2,"0")}`,source:e(i)}));return g.jsx(ov,{children:g.jsx(ip,{children:g.jsx("div",{className:"gallery-grid",children:t.map((n,i)=>g.jsx(rp,{cropped:!0,original:n.source,thumbnail:n.source,children:({ref:r,open:o})=>g.jsx("img",{className:"gallery-item",alt:n.alt,src:n.source,ref:s=>{typeof r=="function"?r(s):r&&(r.current=s)},onClick:o})},i))})})})},lv=Oe.div`
