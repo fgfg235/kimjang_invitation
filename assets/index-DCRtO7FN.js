@@ -483,6 +483,7 @@ Error generating stack: `+o.message+`
     box-sizing: border-box;
     overflow: hidden;
     text-align: center;
+    border: 1px solid black;
     width: 100%;
   }
 
