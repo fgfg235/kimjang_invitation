@@ -480,8 +480,8 @@ Error generating stack: `+o.message+`
       margin : 1rem 1rem;
 
       @media (max-width: 599px) {
-        width: 60rem;
-        height: 80rem;
+        width: 60px;
+        height: 80px;
         margin : 0.5rem 0.5rem;
       }
     }
