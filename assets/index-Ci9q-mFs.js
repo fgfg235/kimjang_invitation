@@ -2882,6 +2882,9 @@ This typically indicates that your device does not have a healthy Internet conne
     background-color: ${Ae.light};
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    @media (max-width: 599px) {
+      width: 350px;
+    }
   }
 
   .message-item {
