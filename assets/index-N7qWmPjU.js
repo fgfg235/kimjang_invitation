@@ -446,6 +446,12 @@ Error generating stack: `+o.message+`
       width: 12rem;
       height: 16rem;
       margin : 1rem 1rem;
+
+      @media (max-width: 599px) {
+        width: 6rem;
+        height: 8rem;
+        margin : 0.5rem 0.5rem;
+      }
     }
   }
 `,sv=()=>{const e=n=>`assets/images/${n}.png`,t=Array.from({length:12},(n,i)=>({alt:`image${String(i).padStart(2,"0")}`,source:e(i)}));return g.jsx(ov,{children:g.jsx(ip,{children:g.jsx("div",{className:"gallery-grid",children:t.map((n,i)=>g.jsx(rp,{cropped:!0,original:n.source,thumbnail:n.source,children:({ref:r,open:o})=>g.jsx("img",{className:"gallery-item",alt:n.alt,src:n.source,ref:s=>{typeof r=="function"?r(s):r&&(r.current=s)},onClick:o})},i))})})})},lv=Oe.div`
