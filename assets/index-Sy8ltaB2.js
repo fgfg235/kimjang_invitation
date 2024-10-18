@@ -156,7 +156,7 @@ Error generating stack: `+o.message+`
 
 
     @media (max-width: 599px) {
-      padding: 0.5rem !important;
+      padding: 0.4rem !important;
     }
   }
 
