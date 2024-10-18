@@ -484,7 +484,7 @@ Error generating stack: `+o.message+`
     overflow: hidden;
     text-align: center;
     border: 1px solid black;
-    width: 100%;
+    width: 100vw;
   }
 
   .image-more-wrap {
